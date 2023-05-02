@@ -29,8 +29,6 @@ let playerSchema = mongoose.Schema(
     phoneNumber: {
       type: String,
       require: [true, "Please fill Phone Number"],
-      maxlength: [13, "Character phone number must 9 - 13 long"],
-      minlength: [9, "Character phone number must 9 - 13 long"],
     },
     role: {
       type: String,
